@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="248c0df7-79c1-46c8-ae9e-bdb4c80a652d" name="Changes" comment="added WBT for TestAddAssignment">
-      <change beforePath="$PROJECT_DIR$/.idea/externalDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="248c0df7-79c1-46c8-ae9e-bdb4c80a652d" name="Changes" comment="added WBT for TestAddAssignment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +51,7 @@
       <recent name="C:\Users\bianc\Desktop\SSVV\VVSS\MaxPointsParticipants" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApplication">
+  <component name="RunManager" selected="JUnit.TestAddAssignment">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.MainApplication" />
       <module name="MaxPointsParticipants" />
@@ -116,9 +112,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAddAssignment" />
         <item itemvalue="Application.MainApplication" />
         <item itemvalue="JUnit.TestAddStudent" />
-        <item itemvalue="JUnit.TestAddAssignment" />
         <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
@@ -133,7 +129,7 @@
       <updated>1712078543143</updated>
       <workItem from="1712078544182" duration="249000" />
       <workItem from="1712078842857" duration="3994000" />
-      <workItem from="1712122573902" duration="2360000" />
+      <workItem from="1712122573902" duration="3215000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Initial commit&quot;">
       <option name="closed" value="true" />
@@ -159,7 +155,39 @@
       <option name="project" value="LOCAL" />
       <updated>1712122923531</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added WBT for TestAddAssignment">
+      <option name="closed" value="true" />
+      <created>1712125118560</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712125118560</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added WBT for TestAddAssignment">
+      <option name="closed" value="true" />
+      <created>1712125396983</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712125396983</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added WBT for TestAddAssignment">
+      <option name="closed" value="true" />
+      <created>1712125515272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712125515272</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added WBT for TestAddAssignment">
+      <option name="closed" value="true" />
+      <created>1712125787491</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712125787491</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
