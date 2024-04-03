@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="248c0df7-79c1-46c8-ae9e-bdb4c80a652d" name="Changes" comment="&quot;first commit&quot;">
-      <change afterPath="$PROJECT_DIR$/../.idea/VVSS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ssvv/example/TestAddStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ssvv/example/TestAddStudent.java" afterDir="false" />
-    </list>
+    <list default="true" id="248c0df7-79c1-46c8-ae9e-bdb4c80a652d" name="Changes" comment="&quot;first commit&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +17,7 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2eYPSp1bSCs3v7bcwK8HmMSScdS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +44,7 @@
       <recent name="C:\Users\bianc\Desktop\SSVV\VVSS\MaxPointsParticipants" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAddStudent">
+  <component name="RunManager" selected="JUnit.TestAddAssignment">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.MainApplication" />
       <module name="MaxPointsParticipants" />
@@ -80,6 +73,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAddAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MaxPointsParticipants" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssvv.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ssvv.example" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.example.TestAddAssignment" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MaxPointsParticipants" />
       <extension name="coverage">
@@ -97,9 +105,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAddStudent" />
-        <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.TestAddAssignment" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.TestAddStudent" />
       </list>
     </recent_temporary>
   </component>
