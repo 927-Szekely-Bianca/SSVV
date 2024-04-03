@@ -55,7 +55,7 @@
       <recent name="C:\Users\bianc\Desktop\SSVV\VVSS\MaxPointsParticipants" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAddAssignment">
+  <component name="RunManager" selected="Application.MainApplication">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.MainApplication" />
       <module name="MaxPointsParticipants" />
@@ -116,10 +116,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAddAssignment" />
-        <item itemvalue="JUnit.TestAddStudent" />
-        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.TestAddStudent" />
+        <item itemvalue="JUnit.TestAddAssignment" />
+        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
