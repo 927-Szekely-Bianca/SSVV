@@ -76,7 +76,7 @@ public class TestAddStudent {
         Student stud2 = this.service.addStudent(newStudent2);
         assertNull(stud2);
 
-        var students = this.service.getAllStudenti().iterator();
+        java.util.Iterator<Student> students = this.service.getAllStudenti().iterator();
         assertEquals(students.next().getID(), newStudent1.getID());
         assertEquals(students.next().getID(), newStudent2.getID());
 
@@ -88,7 +88,7 @@ public class TestAddStudent {
     public void testAddStudentValidName(){
         Student newStudent1 = new Student("1", "Ale", 937, "ale@gmail.com");
         this.service.addStudent(newStudent1);
-        var students = this.service.getAllStudenti().iterator();
+        java.util.Iterator<Student> students = this.service.getAllStudenti().iterator();
         assertEquals(students.next().getID(), newStudent1.getID());
         this.service.deleteStudent("1");
     }
@@ -113,7 +113,7 @@ public class TestAddStudent {
         Student newStudent1 = new Student("1", "Ale", 937, "ale@gmail.com");
 
         this.service.addStudent(newStudent1);
-        var students = this.service.getAllStudenti().iterator();
+        java.util.Iterator<Student> students = this.service.getAllStudenti().iterator();
         assertEquals(students.next().getID(), newStudent1.getID());
 
         this.service.deleteStudent("1");
@@ -129,7 +129,7 @@ public class TestAddStudent {
     public void testAddStudentValidEmail() {
         Student newStudent1 = new Student("1", "Ale", 937, "ale@gmail.com");
         this.service.addStudent(newStudent1);
-        var students = this.service.getAllStudenti().iterator();
+        java.util.Iterator<Student> students = this.service.getAllStudenti().iterator();
         assertEquals(students.next().getID(), newStudent1.getID());
         this.service.deleteStudent("1");
     }
@@ -150,7 +150,7 @@ public class TestAddStudent {
     public void testAddStudentValidId() {
         Student newStudent1 = new Student("2345", "Ale", 937, "ale@gmail.com");
         this.service.addStudent(newStudent1);
-        var students = this.service.getAllStudenti().iterator();
+        java.util.Iterator<Student> students = this.service.getAllStudenti().iterator();
         assertEquals(students.next().getID(), newStudent1.getID());
         this.service.deleteStudent("2345");
     }
@@ -174,7 +174,7 @@ public class TestAddStudent {
     public void testAddStudentGroupLowerBVABound(){
         Student newStudent1 = new Student("1", "Ale", 0, "ale@gmail.com");
         this.service.addStudent(newStudent1);
-        var students = this.service.getAllStudenti().iterator();
+        java.util.Iterator<Student> students = this.service.getAllStudenti().iterator();
         assertEquals(students.next().getID(), newStudent1.getID());
         this.service.deleteStudent("1");
     }
