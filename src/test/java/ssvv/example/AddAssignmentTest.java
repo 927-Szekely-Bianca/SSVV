@@ -18,7 +18,7 @@ import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class TestAddAssignment {
+public class AddAssignmentTest {
 
     private TemaXMLRepo temaFileRepository;
     private TemaValidator temaValidator;
