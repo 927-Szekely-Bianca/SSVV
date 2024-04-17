@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="248c0df7-79c1-46c8-ae9e-bdb4c80a652d" name="Changes" comment="changed poml">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ssvv/example/IntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fisiere/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fisiere/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AbstractCrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractCrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +71,10 @@
       <recent name="C:\Users\bianc\Desktop\SSVV\VVSS\MaxPointsParticipants" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApplication">
+  <component name="RunManager" selected="JUnit.IntegrationTest">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.MainApplication" />
-      <module name="ssvv-project-02" />
+      <module name="MaxPointsParticipants" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="app.*" />
@@ -95,21 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddAssignmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssvv-project-02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ssvv.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ssvv.example" />
-      <option name="MAIN_CLASS_NAME" value="ssvv.example.AddAssignmentTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AddStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssvv-project-02" />
       <extension name="coverage">
@@ -125,8 +115,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssvv-project-02" />
+    <configuration name="IntegrationTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MaxPointsParticipants" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.IntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MaxPointsParticipants" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ssvv.example.*" />
@@ -134,8 +139,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ssvv.example" />
-      <option name="MAIN_CLASS_NAME" value="ssvv.example.AddStudentTest" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.example.IntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest.testAddGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MaxPointsParticipants" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.IntegrationTest" />
+      <option name="METHOD_NAME" value="testAddGrade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest.testIntegration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MaxPointsParticipants" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.IntegrationTest" />
+      <option name="METHOD_NAME" value="testIntegration" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTest" />
+        <item itemvalue="JUnit.IntegrationTest (1)" />
+        <item itemvalue="JUnit.IntegrationTest.testIntegration" />
+        <item itemvalue="JUnit.IntegrationTest.testAddGrade" />
         <item itemvalue="Application.MainApplication" />
-        <item itemvalue="JUnit.AddStudentTest" />
-        <item itemvalue="JUnit.AddAssignmentTest" />
-        <item itemvalue="JUnit.AddStudentTest" />
-        <item itemvalue="JUnit.AddAssignmentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +226,7 @@
       <workItem from="1712078544182" duration="249000" />
       <workItem from="1712078842857" duration="3994000" />
       <workItem from="1712122573902" duration="3955000" />
-      <workItem from="1713286400240" duration="3729000" />
+      <workItem from="1713286400240" duration="8814000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Initial commit&quot;">
       <option name="closed" value="true" />
@@ -287,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713290744164</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changed poml">
+      <option name="closed" value="true" />
+      <created>1713292298141</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713292298141</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,5 +360,11 @@
     <MESSAGE value="added WBT for AddAssignmentTest" />
     <MESSAGE value="changed poml" />
     <option name="LAST_COMMIT_MESSAGE" value="changed poml" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MaxPointsParticipants$AddAssignmentTest__1_.ic" NAME="AddAssignmentTest (1) Coverage Results" MODIFIED="1713293806761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ssvv.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MaxPointsParticipants$java_in_MaxPointsParticipants.ic" NAME="java in MaxPointsParticipants Coverage Results" MODIFIED="1713293833728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

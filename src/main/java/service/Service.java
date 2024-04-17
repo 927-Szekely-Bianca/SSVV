@@ -244,7 +244,7 @@ public class Service {
      * @return saptamana in care a fost predata tema
      */
     private int calculeazaSPredare(LocalDate predare) {
-        LocalDate startDate = Curent.getStartDate();
+        LocalDate startDate = LocalDate.now().minusWeeks(7);//Curent.getStartDate();
         long days = DAYS.between(startDate, predare);
         double saptamanaPredare = Math.ceil((double)days/7);
         return (int)saptamanaPredare;
