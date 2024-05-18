@@ -1,4 +1,4 @@
-package test;
+package ssvv.example;
 
 import domain.Nota;
 import domain.Student;
